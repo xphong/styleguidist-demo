@@ -8,7 +8,7 @@
     "build": "babel src --out-dir dist --verbose",
     "styleguidist": "styleguidist server",
     "styleguidist:build": "styleguidist build",
-    "generate-jsx": "ft jsx-component ./packages"
+    "generate-jsx": "ft jsx-component ./src"
   },
   "dependencies": {
     "@babel/cli": "^7.1.2",
