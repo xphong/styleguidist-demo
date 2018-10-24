@@ -3,5 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "xphong <xphong@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir dist --verbose",
+    "styleguidist": "styleguidist server",
+    "styleguidist:build": "styleguidist build",
+    "generate-jsx": "ft jsx-component ./packages"
+  },
 }
