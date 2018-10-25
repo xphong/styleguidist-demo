@@ -4,7 +4,7 @@ import { shallow } from 'enzyme';
 import {{pascalcase name}} from './{{pascalcase name}}';
 
 const createComponent = newProps => {
-  const component = renderer.create(
+  const component = shallow(
     <{{pascalcase name}} {...newProps} />
   );
 
