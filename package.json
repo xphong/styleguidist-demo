@@ -31,7 +31,6 @@
     "@babel/preset-react": "^7.0.0",
     "@babel/preset-stage-1": "^7.0.0",
     "@babel/runtime": "^7.1.2",
-    "babel-core": "^7.0.0-bridge",
     "babel-loader": "^8.0.4",
     "babel-plugin-styled-components": "^1.8.0",
     "babel-plugin-transform-es2015-modules-simple-commonjs": "^0.3.0"
