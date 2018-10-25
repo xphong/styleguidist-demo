@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render 1`] = `
+<p>
+  replace me 
+  123
+</p>
+`;
