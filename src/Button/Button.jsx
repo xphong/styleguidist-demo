@@ -17,11 +17,12 @@ const StyledButton = styled.button`
 
 export default class Button extends React.PureComponent {
   static propTypes = {
+    /** Text for the button */
     text: PropTypes.string
   };
 
   static defaultProps = {
-    text: 'SAVE'
+    text: 'Button'
   };
 
   render() {

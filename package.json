@@ -5,6 +5,7 @@
   "author": "xphong <xphong@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "yarn styleguidist",
     "build": "babel src --out-dir dist --verbose",
     "styleguidist": "styleguidist server",
     "styleguidist:build": "styleguidist build",

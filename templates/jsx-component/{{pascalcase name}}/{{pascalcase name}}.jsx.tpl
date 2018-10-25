@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 export default class {{pascalcase name}} extends React.PureComponent {
   static propTypes = {
+    /** Sample prop description that you can change */
     dummyProp: PropTypes.number
   };
 
   static defaultProps = {
-    /* Sample prop that you can change */
     dummyProp: 123
   };
 
