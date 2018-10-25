@@ -1,7 +1,7 @@
 {
   "name": "styleguidist-demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "xphong <xphong@gmail.com>",
   "license": "MIT",
   "scripts": {
