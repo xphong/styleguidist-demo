@@ -1,11 +1,11 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 import {{pascalcase name}} from './{{pascalcase name}}';
 
 const createComponent = newProps => {
   const component = renderer.create(
-    <{{pascalcase name}} {...props} />
+    <{{pascalcase name}} {...newProps} />
   );
 
   return {
@@ -16,7 +16,6 @@ const createComponent = newProps => {
 describe('{{pascalcase name}} component', () => {
   it('should render', () => {
     const { component } = createComponent();
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(component).toMatchSnapshot();
   });
 });

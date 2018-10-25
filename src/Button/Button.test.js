@@ -1,11 +1,11 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 import Button from './Button';
 
 const createComponent = newProps => {
-  const component = renderer.create(
-    <Button {...props} />
+  const component = shallow(
+    <Button {...newProps} />
   );
 
   return {
@@ -16,7 +16,6 @@ const createComponent = newProps => {
 describe('Button component', () => {
   it('should render', () => {
     const { component } = createComponent();
-    const tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    expect(component).toMatchSnapshot();
   });
 });
