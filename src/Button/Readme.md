@@ -1,3 +1,3 @@
 ```js
-<Button dummyProp={123}/>
+<Button text={'CONTINUE'}/>
 ```
